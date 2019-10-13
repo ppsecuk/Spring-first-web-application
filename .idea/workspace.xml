@@ -1,10 +1,176 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="41f2c526-8d36-4456-8c0f-42a59ecae61e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/DevConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/events/ApplicationStartListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/events/UserSignupEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/notifications/EmailNotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user-delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user-not-found.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sda/springmvc/example/repositories/UserRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="school: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Arquillian JUnit Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="RokourEk" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1S63om4NQK29EnocofEQtnUde9Q" />
-  <component name="RunManager">
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.sda.springmvc.example.repositories" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sda.springmvc.example.repositories" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/sda" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/sda/springmvc" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="#com.intellij.j2ee.web.jsr45.JSR45ConfigurationFactory" />
+        <option value="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" />
+        <option value="GeronimoConfiguration" />
+        <option value="GlassfishConfiguration" />
+        <option value="GoogleAppEngineDevServer" />
+        <option value="JBossConfiguration" />
+        <option value="JettyConfiguration" />
+        <option value="ResinConfigurationType" />
+        <option value="TomeeConfiguration" />
+        <option value="WebLogic Instance" />
+        <option value="WebSphereRunConfigurationType" />
+        <option value="com.intellij.dmserver.run.DMServerRunConfigurationType:id" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.[DEV] Application">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -23,6 +189,99 @@
       <module name="" />
       <method v="2" />
     </configuration>
+    <configuration name="UserRepositoryTest.entity_manager_must_not_be_null" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-first-web-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.springmvc.example.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sda.springmvc.example.repositories" />
+      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.repositories.UserRepositoryTest" />
+      <option name="METHOD_NAME" value="entity_manager_must_not_be_null" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRepositoryTest.should_find_user_by_email" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-first-web-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.springmvc.example.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sda.springmvc.example.repositories" />
+      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.repositories.UserRepositoryTest" />
+      <option name="METHOD_NAME" value="should_find_user_by_email" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRepositoryTest.should_not_save_two_users_with_same_email" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-first-web-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.springmvc.example.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sda.springmvc.example.repositories" />
+      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.repositories.UserRepositoryTest" />
+      <option name="METHOD_NAME" value="should_not_save_two_users_with_same_email" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Spring-first-web-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.springmvc.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sda.springmvc.example.Application" />
+      <option name="VM_PARAMETERS" value="-D--debug" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="[DEV] Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-first-web-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.springmvc.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sda.springmvc.example.Application" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=dev" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.[DEV] Application" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="JUnit.UserRepositoryTest.entity_manager_must_not_be_null" />
+      <item itemvalue="JUnit.UserRepositoryTest.should_not_save_two_users_with_same_email" />
+      <item itemvalue="JUnit.UserRepositoryTest.should_find_user_by_email" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserRepositoryTest.should_find_user_by_email" />
+        <item itemvalue="JUnit.UserRepositoryTest.should_not_save_two_users_with_same_email" />
+        <item itemvalue="JUnit.UserRepositoryTest.entity_manager_must_not_be_null" />
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
@@ -32,5 +291,114 @@
         <entry key="$USER_HOME$/scala_dojo/scala-integration-test-example" value="PREVIEW" />
       </map>
     </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView />
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41f2c526-8d36-4456-8c0f-42a59ecae61e" name="Default Changelist" comment="" />
+      <created>1570871737828</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570871737828</updated>
+      <workItem from="1570871739190" duration="1030000" />
+      <workItem from="1570875846358" duration="9053000" />
+      <workItem from="1570946737438" duration="14909000" />
+      <workItem from="1570967617412" duration="3937000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="430" y="125" width="800" height="684" key="#Auto_Import" timestamp="1570953769335">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="430" y="125" width="800" height="684" key="#Auto_Import/70.27.1530.873@70.27.1530.873" timestamp="1570953769335" />
+    <state x="430" y="125" width="800" height="684" key="#Project_Structure" timestamp="1570967916899">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="430" y="125" width="800" height="684" key="#Project_Structure/70.27.1530.873@70.27.1530.873" timestamp="1570967916899" />
+    <state x="430" y="125" width="1071" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1570971370466">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="430" y="125" width="1071" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1530.873@70.27.1530.873" timestamp="1570971370466" />
+    <state x="558" y="167" width="544" height="599" key="#com.intellij.ide.util.MemberChooser" timestamp="1570950629165">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="558" y="167" width="544" height="599" key="#com.intellij.ide.util.MemberChooser/70.27.1530.873@70.27.1530.873" timestamp="1570950629165" />
+    <state x="676" y="355" width="308" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1570871895951">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="676" y="355" width="308" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/70.27.1530.873@70.27.1530.873" timestamp="1570871895951" />
+    <state x="557" y="324" width="556" height="297" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1570968640187">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="557" y="324" width="556" height="297" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/70.27.1530.873@70.27.1530.873" timestamp="1570968640187" />
+    <state width="1484" height="287" key="GridCell.Tab.0.bottom" timestamp="1570971907037">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1484" height="287" key="GridCell.Tab.0.bottom/70.27.1530.873@70.27.1530.873" timestamp="1570971907037" />
+    <state width="1484" height="287" key="GridCell.Tab.0.center" timestamp="1570971907035">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1484" height="287" key="GridCell.Tab.0.center/70.27.1530.873@70.27.1530.873" timestamp="1570971907035" />
+    <state width="1484" height="287" key="GridCell.Tab.0.left" timestamp="1570971907035">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1484" height="287" key="GridCell.Tab.0.left/70.27.1530.873@70.27.1530.873" timestamp="1570971907035" />
+    <state width="1484" height="287" key="GridCell.Tab.0.right" timestamp="1570971907037">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1484" height="287" key="GridCell.Tab.0.right/70.27.1530.873@70.27.1530.873" timestamp="1570971907037" />
+    <state width="1484" height="287" key="GridCell.Tab.1.bottom" timestamp="1570971907039">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1484" height="287" key="GridCell.Tab.1.bottom/70.27.1530.873@70.27.1530.873" timestamp="1570971907039" />
+    <state width="1484" height="287" key="GridCell.Tab.1.center" timestamp="1570971907038">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1484" height="287" key="GridCell.Tab.1.center/70.27.1530.873@70.27.1530.873" timestamp="1570971907038" />
+    <state width="1484" height="287" key="GridCell.Tab.1.left" timestamp="1570971907038">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1484" height="287" key="GridCell.Tab.1.left/70.27.1530.873@70.27.1530.873" timestamp="1570971907038" />
+    <state width="1484" height="287" key="GridCell.Tab.1.right" timestamp="1570971907039">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1484" height="287" key="GridCell.Tab.1.right/70.27.1530.873@70.27.1530.873" timestamp="1570971907039" />
+    <state width="326" height="500" key="HiddenNamespacesPopup" timestamp="1570872706300">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="326" height="500" key="HiddenNamespacesPopup/70.27.1530.873@70.27.1530.873" timestamp="1570872706300" />
+    <state x="318" y="41" width="1024" height="852" key="SettingsEditor" timestamp="1570948455229">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="318" y="41" width="1024" height="852" key="SettingsEditor/70.27.1530.873@70.27.1530.873" timestamp="1570948455229" />
+    <state x="491" y="291" key="com.intellij.ide.util.TipDialog" timestamp="1570967622443">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="491" y="291" key="com.intellij.ide.util.TipDialog/70.27.1530.873@70.27.1530.873" timestamp="1570967622443" />
+    <state x="529" y="168" width="602" height="597" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1570967937278">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="529" y="168" width="602" height="597" key="com.intellij.testIntegration.createTest.CreateTestDialog/70.27.1530.873@70.27.1530.873" timestamp="1570967937278" />
+    <state x="568" y="232" width="524" height="471" key="extract.method.dialog" timestamp="1570954141354">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="568" y="232" width="524" height="471" key="extract.method.dialog/70.27.1530.873@70.27.1530.873" timestamp="1570954141354" />
+    <state x="498" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1570970940828">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="498" y="214" width="672" height="678" key="search.everywhere.popup/70.27.1530.873@70.27.1530.873" timestamp="1570970940828" />
   </component>
 </project>

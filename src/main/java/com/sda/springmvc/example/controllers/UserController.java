@@ -1,8 +1,11 @@
 package com.sda.springmvc.example.controllers;
 
 import com.sda.springmvc.example.entities.User;
+import com.sda.springmvc.example.events.UserSignupEvent;
 import com.sda.springmvc.example.repositories.UserRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -11,65 +14,89 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import javax.validation.Valid;
-import java.util.List;
+import java.util.Optional;
 
 @Controller
 public class UserController {
 
     private final UserRepository userRepository;
+    private final ApplicationEventPublisher applicationEventPublisher;
 
-    @Autowired
-    public UserController(UserRepository userRepository) {
+    private static final Logger LOG = LoggerFactory.getLogger(UserController.class);
+
+    public UserController(UserRepository userRepository, ApplicationEventPublisher eventPublisher){
         this.userRepository = userRepository;
+        this.applicationEventPublisher = eventPublisher;
     }
 
     @GetMapping("/")
-    public String showUpdateForm(Model model) {
-        List<User> users = userRepository.findAll();
-        model.addAttribute("users", users);
+    public String home(Model model){
+        model.addAttribute("users", userRepository.findAll());
         return "index";
     }
 
     @GetMapping("/signup")
-    public String showSignUpForm(User user) {
+    public String signUp(Model model){
+        model.addAttribute("user", new User());
         return "user-add";
     }
 
     @PostMapping("/adduser")
-    public String addUser(@Valid User user, BindingResult result, Model model) {
-        if (result.hasErrors()) {
+    public String create(@Valid User newUser, BindingResult result, Model model){
+        LOG.info("Creating user {}", newUser);
+
+        if(result.hasErrors()) {
             return "user-add";
         }
+        userRepository.save(newUser);
+        LOG.info("Sending a signup event on thread {}", Thread.currentThread().getName());
+        applicationEventPublisher.publishEvent(UserSignupEvent.newInstance(newUser));
 
-        userRepository.save(user);
-        model.addAttribute("users", userRepository.findAll());
-        return "index";
+        return "redirect:/";
     }
 
-    @GetMapping("/edit/{id}")
-    public String showUpdateForm(@PathVariable("id") long id, Model model) {
-        User user = userRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("Invalid user Id:" + id));
+    @GetMapping("/edit/{userId}")
+    public String edit(@PathVariable long userId, Model model){
+        LOG.info("Editing user {}", userId);
+
+        return userRepository.findById(userId)
+                .map(user -> getEditView(model, user))
+                .orElseGet(() -> "user-not-found");
+    }
+
+    private String getEditView(Model model, User user) {
         model.addAttribute("user", user);
         return "user-edit";
     }
 
-    @PostMapping("/update/{id}")
-    public String updateUser(@PathVariable("id") long id, @Valid User user, BindingResult result, Model model) {
-        if (result.hasErrors()) {
-            user.setId(id);
+    @PostMapping("/update/{userId}")
+    public String update(@PathVariable long userId, @Valid User existingUser, BindingResult result) {
+
+        if(result.hasErrors()) {
             return "user-edit";
         }
 
-        userRepository.save(user);
-        model.addAttribute("users", userRepository.findAll());
-        return "index";
+        existingUser.setId(userId);
+        userRepository.save(existingUser);
+
+        return "redirect:/";
     }
 
-    @GetMapping("/delete/{id}")
-    public String deleteUser(@PathVariable("id") long id, Model model) {
-        User user = userRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("Invalid user Id:" + id));
-        userRepository.delete(user);
-        model.addAttribute("users", userRepository.findAll());
-        return "index";
+    @GetMapping("/delete/{userId}")
+    public String confirmDeletion(@PathVariable long userId, Model model){
+        return userRepository.findById(userId)
+                .map(user -> getDeleteView(model, user))
+                .orElseGet(() -> "user-not-found");
+    }
+
+    private String getDeleteView(Model model, User user) {
+        model.addAttribute("user", user);
+        return "user-delete";
+    }
+
+    @PostMapping("/delete/{userId}")
+    public String delete(@PathVariable long userId, User user){
+        userRepository.deleteById(userId);
+        return "redirect:/";
     }
 }

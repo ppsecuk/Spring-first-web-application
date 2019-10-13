@@ -1,22 +1,55 @@
 package com.sda.springmvc.example;
 
+import com.sda.springmvc.example.entities.User;
+import com.sda.springmvc.example.repositories.UserRepository;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.event.ApplicationEventMulticaster;
+import org.springframework.context.event.SimpleApplicationEventMulticaster;
+import org.springframework.core.env.Environment;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
-@EnableAutoConfiguration
-@ComponentScan(basePackages={"com.sda.springmvc.example"})
 @EnableJpaRepositories(basePackages="com.sda.springmvc.example.repositories")
 @EnableTransactionManagement
 @EntityScan(basePackages="com.sda.springmvc.example.entities")
+@EnableAsync
 public class Application {
 
+    private static final Logger LOG = LoggerFactory.getLogger(Application.class);
+
     public static void main(String[] args) {
+
         SpringApplication.run(Application.class, args);
     }
+    @Bean
+    CommandLineRunner dbInitializer(UserRepository userRepository){
+        return args -> {
+            User user = new User("Alice", "alice@gmail.com", "GB");
+            userRepository.save(user);
+        };
+    }
+
+    @Bean
+    ApplicationEventMulticaster applicationEventMulticaster(){
+        return new SimpleApplicationEventMulticaster();
+    }
+
+    @Bean
+    CommandLineRunner observeEnvironment(Environment env){
+        return args -> {
+            final String dbUrl = "spring.datasource.url";
+            LOG.info("Connected to database {}", env.getProperty(dbUrl));
+        };
+    }
+
 }
