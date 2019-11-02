@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41f2c526-8d36-4456-8c0f-42a59ecae61e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/validation/AgeValidationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user-age-not-valid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sda/springmvc/example/controllers/UserControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/controllers/RestUserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sda/springmvc/example/repositories/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sda/springmvc/example/repositories/UserRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/springmvc/example/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/springmvc/example/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/springmvc/example/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/springmvc/example/controllers/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/springmvc/example/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/springmvc/example/entities/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/user-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/user-add.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,10 +60,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/entities/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+            <state relative-caret-position="274">
+              <caret line="46" column="58" lean-forward="true" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1032#1033#0" expanded="true" />
+                <element signature="e#1092#1093#0" expanded="true" />
                 <element signature="e#1118#1119#0" expanded="true" />
                 <element signature="e#1196#1197#0" expanded="true" />
               </folding>
@@ -85,12 +76,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/validation/AgeValidationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="150">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,16 +89,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/repositories/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user-age-not-valid.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -126,13 +106,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/sda/springmvc/example/controllers/UserControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+            <state relative-caret-position="-71">
+              <caret line="44" column="66" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/controllers/RestUserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#778#779#0" expanded="true" />
+                <element signature="e#824#825#0" expanded="true" />
+                <element signature="e#1214#1215#0" expanded="true" />
+                <element signature="e#1250#1251#0" expanded="true" />
+                <element signature="e#1358#1359#0" expanded="true" />
+                <element signature="e#1431#1432#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,12 +143,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="60" column="62" lean-forward="true" selection-start-line="60" selection-start-column="62" selection-end-line="60" selection-end-column="62" />
+            <state relative-caret-position="386">
+              <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2324#2325#0" expanded="true" />
                 <element signature="e#2386#2387#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.http">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -158,8 +188,8 @@
       <list>
         <option value="Arquillian JUnit Test Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -173,10 +203,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/entities/User.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/user-age-not-valid.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/validation/AgeValidationService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/controllers/UserController.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sda/springmvc/example/repositories/UserRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sda/springmvc/example/controllers/UserControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/Application.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.http" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/controllers/RestUserController.java" />
       </list>
     </option>
   </component>
@@ -212,8 +244,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -439,10 +469,21 @@
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="repositories" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="springMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -452,6 +493,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="ExpandSpringBootSpringBootSettingsPanel" value="false" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -459,6 +501,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTTP Request" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -497,6 +540,68 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/sda/springmvc" />
     </key>
   </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8083/api/users/1111" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8083/api/users/1" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8083/api/users/" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8082/api/users/" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8082/api/users/1" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8082/api/users/200" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8082/users/200" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8082/api/greet" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -509,7 +614,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserControllerTest.should_not_register_user_with_invalid_age">
+  <component name="RunManager" selected="HTTP Request.scratch#2">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -528,6 +633,15 @@
       <module name="" />
       <method v="2" />
     </configuration>
+    <configuration name="scratch#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/scratch.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="scratch#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/scratch.http" index="2">
+      <method v="2" />
+    </configuration>
+    <configuration name="scratch#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/scratch.http" index="3">
+      <method v="2" />
+    </configuration>
     <configuration name="UserControllerTest.should_not_register_user_with_invalid_age" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springMVC" />
       <extension name="coverage">
@@ -539,54 +653,6 @@
       <option name="PACKAGE_NAME" value="com.sda.springmvc.example.controllers" />
       <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.controllers.UserControllerTest" />
       <option name="METHOD_NAME" value="should_not_register_user_with_invalid_age" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserControllerTest.should_return_main_page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springMVC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sda.springmvc.example.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sda.springmvc.example.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.controllers.UserControllerTest" />
-      <option name="METHOD_NAME" value="should_return_main_page" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserControllerTest.should_return_signup_page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springMVC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sda.springmvc.example.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sda.springmvc.example.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.controllers.UserControllerTest" />
-      <option name="METHOD_NAME" value="should_return_signup_page" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRepositoryTest.should_find_user_by_email" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring-first-web-application" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sda.springmvc.example.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sda.springmvc.example.repositories" />
-      <option name="MAIN_CLASS_NAME" value="com.sda.springmvc.example.repositories.UserRepositoryTest" />
-      <option name="METHOD_NAME" value="should_find_user_by_email" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -606,7 +672,7 @@
       </method>
     </configuration>
     <configuration name="[DEV] Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="Spring-first-web-application" />
+      <module name="springMVC" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sda.springmvc.example.*" />
@@ -621,20 +687,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.UserRepositoryTest.should_find_user_by_email" />
+      <item itemvalue="JUnit.UserControllerTest.should_not_register_user_with_invalid_age" />
       <item itemvalue="Spring Boot.[DEV] Application" />
       <item itemvalue="Spring Boot.Application (1)" />
-      <item itemvalue="JUnit.UserControllerTest.should_return_main_page" />
-      <item itemvalue="JUnit.UserControllerTest.should_return_signup_page" />
-      <item itemvalue="JUnit.UserControllerTest.should_not_register_user_with_invalid_age" />
+      <item itemvalue="HTTP Request.scratch#1" />
+      <item itemvalue="HTTP Request.scratch#2" />
+      <item itemvalue="HTTP Request.scratch#3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserControllerTest.should_not_register_user_with_invalid_age" />
-        <item itemvalue="JUnit.UserControllerTest.should_return_signup_page" />
-        <item itemvalue="JUnit.UserControllerTest.should_return_main_page" />
+        <item itemvalue="HTTP Request.scratch#2" />
+        <item itemvalue="HTTP Request.scratch#3" />
+        <item itemvalue="HTTP Request.scratch#1" />
         <item itemvalue="Spring Boot.Application (1)" />
-        <item itemvalue="JUnit.UserRepositoryTest.should_find_user_by_email" />
+        <item itemvalue="JUnit.UserControllerTest.should_not_register_user_with_invalid_age" />
       </list>
     </recent_temporary>
   </component>
@@ -669,7 +735,8 @@
       <workItem from="1570946737438" duration="14909000" />
       <workItem from="1570967617412" duration="4195000" />
       <workItem from="1572680532409" duration="6522000" />
-      <workItem from="1572687168479" duration="7212000" />
+      <workItem from="1572687168479" duration="8269000" />
+      <workItem from="1572699320049" duration="3970000" />
     </task>
     <task id="LOCAL-00001" summary="version 1.0">
       <created>1570972043598</created>
@@ -678,7 +745,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570972043598</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="version 2.0">
+      <created>1572697401904</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572697401904</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -711,13 +785,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13734000" />
+    <option name="totallyTimeSpent" value="18761000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="27" width="1530" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21024258" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21293801" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -759,7 +833,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 1.0" />
+    <MESSAGE value="version 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 2.0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="430" y="125" width="800" height="684" key="#Auto_Import" timestamp="1570953769335">
@@ -880,13 +955,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://fc6f8ee3-b634-4057-bc9c-329081578bd3/schema/school/table/user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="77c0543f-0334-47c4-8892-aa76f767cf4f">
@@ -895,12 +963,6 @@
           </filtering>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/events/ApplicationStartListener.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.10.RELEASE/spring-core-5.1.10.RELEASE.jar!/org/springframework/core/convert/converter/Converter.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -918,33 +980,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/entities/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
-            <element signature="e#1196#1197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user-add.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="60" column="62" lean-forward="true" selection-start-line="60" selection-start-column="62" selection-end-line="60" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2386#2387#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -958,26 +997,52 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user-age-not-valid.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/validation/AgeValidationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-          </folding>
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/repositories/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/validation/AgeValidationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/events/UserSignupEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/events/ApplicationStartListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="46" column="58" lean-forward="true" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1196#1197#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -993,10 +1058,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/sda/springmvc/example/controllers/UserControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+        <state relative-caret-position="-71">
+          <caret line="44" column="66" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2324#2325#0" expanded="true" />
+            <element signature="e#2386#2387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/springmvc/example/controllers/RestUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+            <element signature="e#1250#1251#0" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
           </folding>
         </state>
       </provider>

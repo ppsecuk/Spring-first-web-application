@@ -1,0 +1,88 @@
+GET http://localhost:8083/api/users/1111
+
+###
+
+GET http://localhost:8083/api/users/1111
+
+<> 2019-11-02T034657.500.json
+
+###
+
+GET http://localhost:8083/api/users/1
+
+<> 2019-11-02T034649.200.json
+
+###
+
+GET http://localhost:8083/api/users/1
+
+<> 2019-11-02T033813.200.json
+
+###
+
+GET http://localhost:8083/api/users/
+
+<> 2019-11-02T033754.200.json
+
+###
+
+GET http://localhost:8082/api/greet
+
+###
+
+GET http://localhost:8082/api/users/
+
+###
+
+GET http://localhost:8082/api/users/
+
+###
+
+GET http://localhost:8082/api/users/
+
+<> 2019-11-02T033517.404.json
+
+###
+
+GET http://localhost:8082/api/users/1
+
+<> 2019-11-02T033200.404.json
+
+###
+
+GET http://localhost:8082/api/users/200
+
+<> 2019-11-02T033144.404.json
+
+###
+
+GET http://localhost:8082/api/users/200
+
+<> 2019-11-02T033111.404.json
+
+###
+
+GET http://localhost:8082/users/200
+
+<> 2019-11-02T033100.404.json
+
+###
+
+GET http://localhost:8082/api/greet
+
+<> 2019-11-02T032958.404.json
+
+###
+
+GET http://localhost:8082/api/greet
+
+<> 2019-11-02T032026.200.txt
+
+###
+
+GET http://localhost:8082/api/greet
+
+<> 2019-11-02T031429.200.txt
+
+###
+

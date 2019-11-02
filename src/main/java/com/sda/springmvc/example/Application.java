@@ -43,8 +43,6 @@ public class Application implements WebMvcConfigurer {
         registry.addConverter(new StringToLocalDateTimeConverter());
     }
 
-
-
     public static void main(String[] args) {
 
         SpringApplication.run(Application.class, args);
@@ -52,7 +50,7 @@ public class Application implements WebMvcConfigurer {
     @Bean
     CommandLineRunner dbInitializer(UserRepository userRepository){
         return args -> {
-            User user = new User("Alice", "alice@gmail.com", "GB");
+            User user = new User("Bob", "bob@gmail.com", "GB");
             userRepository.save(user);
         };
     }
