@@ -54,5 +54,4 @@ public class UserRepositoryTest {
 
         Assertions.assertThat(maybeAlice).isPresent();
     }
-
 }
