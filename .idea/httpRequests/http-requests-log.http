@@ -1,3 +1,201 @@
+POST http://localhost:8083/api/users
+Content-Type: application/json
+
+{
+  "name": "Josh Long",
+  "email": "josh@long.com",
+  "country": "US",
+  "dateOfBirth": "2011-12-03"
+}
+
+<> 2019-11-03T102013.201.json
+
+###
+
+POST http://localhost:8083/api/users
+Content-Type: application/json
+
+{
+  "name": "Josh Long",
+  "email": "josh@long.com",
+  "country": "US",
+  "dateOfBirth": "2011-12-03"
+}
+
+<> 2019-11-03T101934.201.json
+
+###
+
+POST http://localhost:8083/api/users
+Content-Type: application/json
+
+{
+  "name": "Josh Long",
+  "email": "josh@long.com",
+  "country": "US"
+}
+
+<> 2019-11-03T101634.201.json
+
+###
+
+POST http://localhost:8083/api/users
+Content-Type: application/json
+
+{
+}
+
+<> 2019-11-03T100917.400.json
+
+###
+
+POST http://localhost:8083/api/users
+Content-Type: application/json
+
+{
+}
+
+<> 2019-11-03T100839.404.json
+
+###
+
+POST http://localhost:8083/api/users
+Content-Type: application/json
+
+{
+}
+
+<> 2019-11-03T095641.201.json
+
+###
+
+POST http://localhost:8083/api/users
+Content-Type: application/json
+
+{
+}
+
+###
+
+POST http://localhost:8083/api/users
+Content-Type: application/json
+
+{
+}
+
+<> 2019-11-03T094647.500.json
+
+###
+
+POST http://localhost:8083/api/users
+Content-Type: application/json
+{:
+}:
+
+<> 2019-11-03T094639.400.html
+
+###
+
+POST http://localhost:8083/api/users
+Content-Type: application/json
+
+{
+}
+
+<> 2019-11-03T094630.500.json
+
+###
+
+POST http://localhost:8083/api/users/1
+Content-Type: application/json
+
+{
+}
+
+<> 2019-11-03T094602.405.json
+
+###
+
+POST http://localhost:8083/api/users/1
+Content-Type: application/json
+{:
+}:
+
+<> 2019-11-03T094140.400.html
+
+###
+
+GET http://localhost:8083/api/users/1
+Content-Type: application/json
+{:
+}:
+
+<> 2019-11-03T094005.400.html
+
+###
+
+GET http://localhost:8083/api/users/1
+Content-Type: application/json
+
+<> 2019-11-03T093926.404.json
+
+###
+
+GET http://localhost:8083/api/users/1
+Accept: application/xml
+
+###
+
+GET http://localhost:8083/api/users/1
+Accept: application/json
+Accept: application/xml
+
+<> 2019-11-03T093123.200.json
+
+###
+
+GET http://localhost:8083/api/users/1
+Accept: application/json
+
+<> 2019-11-03T093029.200.json
+
+###
+
+GET http://localhost:8083/api/users/1
+Accept: application/json
+
+<> 2019-11-03T092933.404.json
+
+###
+
+GET http://localhost:8083/api/users/1
+Accept: application/json
+
+<> 2019-11-03T092451.404.json
+
+###
+
+GET http://localhost:8083/api/users/1
+Accept: application/json
+<> 2019-11-03T092018.200.json:
+<> 2019-11-02T034657.500.json:
+<> 2019-11-02T034649.200.json:
+<> 2019-11-02T033813.200.json:
+<> 2019-11-02T033200.404.json:
+<> 2019-11-02T033144.404.json:
+<> 2019-11-02T033111.404.json:
+<> 2019-11-02T033100.404.json:
+
+<> 2019-11-03T092141.400.html
+
+###
+
+GET http://localhost:8083/api/users/1
+
+<> 2019-11-03T092018.200.json
+
+###
+
 GET http://localhost:8083/api/users/1111
 
 ###

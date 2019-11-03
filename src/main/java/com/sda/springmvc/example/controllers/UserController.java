@@ -46,7 +46,6 @@ public class UserController {
         model.addAttribute("user", new User());
         return "user-add";
     }
-
     @PostMapping("/adduser")
     public String create(@Valid User newUser, BindingResult result) {
         if(!ageValidationService.isValid(newUser)){
